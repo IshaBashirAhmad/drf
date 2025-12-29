@@ -46,5 +46,3 @@ def studentDetailsView(request, pk):
         return Response(status=status.HTTP_204_NO_CONTENT)
     
 
-class EmployeeView(APIView):
-    
